@@ -54,7 +54,6 @@ ifneq ($(filter p3100 p3110 p5100 p5110,$(TARGET_DEVICE)),)
    TARGET_TI_HWC_HDMI_DISABLED := true
 endif
 
-TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
 # Setup custom omap4xxx defines
