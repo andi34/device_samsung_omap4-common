@@ -57,6 +57,9 @@ endif
 TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
 BOARD_EGL_WORKAROUND_BUG_10194508 := true
 
+# disabling the usage of cursor layers
+TARGET_DISABLE_CURSOR_LAYER := true
+
 # Setup custom omap4xxx defines
 BOARD_USE_CUSTOM_LIBION := true
 
